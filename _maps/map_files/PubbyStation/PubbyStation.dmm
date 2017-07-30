@@ -8422,8 +8422,13 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/vault{
 	dir = 5
+=======
+/turf/open/floor/plasteel/darkblue/side{
+	dir = 10
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	},
 /area/bridge)
 "ast" = (
@@ -40871,7 +40876,11 @@
 	d2 = 4
 	},
 /obj/machinery/power/smes/engineering,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/yellow/side{
+=======
+/turf/open/floor/plasteel/darkyellow/side{
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	dir = 1
 	},
 /area/engine/engine_smes)
@@ -40890,7 +40899,11 @@
 	dir = 2;
 	network = list("SS13")
 	},
+<<<<<<< HEAD
 /turf/open/floor/plasteel/yellow/side{
+=======
+/turf/open/floor/plasteel/darkyellow/side{
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	dir = 1
 	},
 /area/engine/engine_smes)
@@ -40900,7 +40913,11 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/smes/engineering,
+<<<<<<< HEAD
 /turf/open/floor/plasteel/yellow/side{
+=======
+/turf/open/floor/plasteel/darkyellow/side{
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	dir = 1
 	},
 /area/engine/engine_smes)
@@ -52486,11 +52503,16 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/teleporter)
+=======
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 "cmE" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -52518,6 +52540,7 @@
 /turf/open/floor/plasteel,
 /area/teleporter)
 "cmG" = (
+<<<<<<< HEAD
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -52541,11 +52564,32 @@
 /obj/structure/sign/securearea,
 /turf/closed/wall,
 /area/bridge)
+=======
+/obj/machinery/blackbox_recorder,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmH" = (
+/obj/machinery/message_server,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmI" = (
+/obj/machinery/power/apc{
+	cell_type = 5000;
+	dir = 1;
+	layer = 4;
+	name = "Telecoms Server APC";
+	pixel_y = 24
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 "cmJ" = (
 /obj/machinery/door/airlock/command{
 	name = "MiniSat Access";
 	req_access_txt = "65"
 	},
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
@@ -52607,9 +52651,42 @@
 /turf/open/floor/plasteel,
 /area/teleporter)
 "cmQ" = (
+=======
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cmK" = (
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cmL" = (
+/obj/machinery/telecomms/bus/preset_three,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmM" = (
+/obj/machinery/telecomms/receiver/preset_left,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmN" = (
+/obj/machinery/telecomms/processor/preset_three,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmO" = (
+/obj/machinery/telecomms/processor/preset_one,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmP" = (
+/obj/machinery/telecomms/receiver/preset_right,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmQ" = (
+/obj/machinery/telecomms/bus/preset_one,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmR" = (
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 /obj/machinery/light{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/structure/closet/secure_closet/exile,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -52732,12 +52809,74 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+=======
+/turf/open/floor/plasteel/darkred/side/telecomms,
+/area/tcommsat/server)
+"cmS" = (
+/turf/open/floor/plasteel/whitepurple/side/telecomms,
+/area/tcommsat/server)
+"cmT" = (
+/turf/open/floor/plasteel/darkgreen/side/telecomms,
+/area/tcommsat/server)
+"cmU" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/whitepurple/side/telecomms,
+/area/tcommsat/server)
+"cmV" = (
+/obj/machinery/telecomms/server/presets/security,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmW" = (
+/obj/machinery/telecomms/server/presets/science,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmX" = (
+/obj/machinery/telecomms/hub/preset,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmY" = (
+/obj/machinery/telecomms/server/presets/common,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cmZ" = (
+/obj/machinery/telecomms/server/presets/service,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cna" = (
+/obj/machinery/telecomms/server/presets/medical,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnb" = (
+/obj/machinery/telecomms/server/presets/command,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnc" = (
+/obj/machinery/power/terminal,
+/obj/machinery/ntnet_relay,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnd" = (
+/obj/machinery/telecomms/server/presets/supply,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cne" = (
+/obj/machinery/telecomms/server/presets/engineering,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 "cnf" = (
 /obj/machinery/light{
 	dir = 1
 	},
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
+=======
+/turf/open/floor/plasteel/darkblue/side/telecomms{
+	dir = 1
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -52747,8 +52886,12 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "cng" = (
+<<<<<<< HEAD
 /obj/machinery/camera{
 	c_tag = "Dormitories Hallway";
+=======
+/turf/open/floor/plasteel/darkblue/side/telecomms{
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
@@ -52762,8 +52905,13 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "cnh" = (
+<<<<<<< HEAD
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
+=======
+/turf/open/floor/plasteel/whitepurple/side/telecomms{
+	dir = 1
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -52777,10 +52925,15 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+<<<<<<< HEAD
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+=======
+/turf/open/floor/plasteel/whitepurple/side/telecomms{
+	dir = 1
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -52790,6 +52943,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "cnj" = (
+<<<<<<< HEAD
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
@@ -52832,6 +52986,42 @@
 "cno" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
+=======
+/obj/machinery/telecomms/processor/preset_four,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnk" = (
+/obj/machinery/telecomms/broadcaster/preset_left,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnl" = (
+/obj/machinery/telecomms/bus/preset_four,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnm" = (
+/obj/machinery/telecomms/bus/preset_two,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnn" = (
+/obj/machinery/telecomms/broadcaster/preset_right,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cno" = (
+/obj/machinery/telecomms/processor/preset_two,
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
+"cnp" = (
+/obj/machinery/camera{
+	active_power_usage = 0;
+	c_tag = "Bomb Testing Asteroid Aft";
+	desc = "A specially-reinforced camera with a long lasting battery, used to monitor the bomb testing site. An external light is attached to the top.";
+	dir = 1;
+	invuln = 1;
+	luminosity = 3;
+	name = "Hardened Bomb-Test Camera";
+	network = list("Toxins");
+	use_power = 0
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 	},
 /turf/closed/wall/r_wall,
 /area/crew_quarters/heads/captain)
@@ -52853,6 +53043,7 @@
 /turf/open/floor/plasteel/black,
 /area/bridge)
 "cnr" = (
+<<<<<<< HEAD
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -52906,6 +53097,61 @@
 	},
 /turf/open/floor/plasteel/stairs,
 /area/hallway/primary/central)
+=======
+/obj/structure/table,
+/obj/item/weapon/stock_parts/subspace/amplifier,
+/obj/item/weapon/stock_parts/subspace/amplifier,
+/obj/item/weapon/stock_parts/subspace/analyzer,
+/obj/item/weapon/stock_parts/subspace/analyzer,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cns" = (
+/obj/structure/table,
+/obj/item/weapon/stock_parts/subspace/ansible,
+/obj/item/weapon/stock_parts/subspace/ansible,
+/obj/item/weapon/stock_parts/subspace/crystal,
+/obj/item/weapon/stock_parts/subspace/crystal,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cnt" = (
+/obj/structure/table,
+/obj/item/weapon/stock_parts/subspace/filter,
+/obj/item/weapon/stock_parts/subspace/filter,
+/obj/item/weapon/stock_parts/subspace/transmitter,
+/obj/item/weapon/stock_parts/subspace/transmitter,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cnu" = (
+/obj/machinery/camera/motion{
+	c_tag = "Telecoms Server Room";
+	dir = 1;
+	network = list("SS13","Telecoms")
+	},
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cnv" = (
+/obj/structure/table,
+/obj/item/weapon/stock_parts/subspace/treatment,
+/obj/item/weapon/stock_parts/subspace/treatment,
+/obj/item/weapon/stock_parts/manipulator,
+/obj/item/weapon/stock_parts/manipulator,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cnw" = (
+/obj/structure/table,
+/obj/item/weapon/stock_parts/console_screen,
+/obj/item/weapon/stock_parts/console_screen,
+/obj/item/weapon/stock_parts/micro_laser,
+/obj/item/weapon/stock_parts/micro_laser,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+"cnx" = (
+/obj/structure/table,
+/obj/item/weapon/stock_parts/scanning_module,
+/obj/item/weapon/stock_parts/scanning_module,
+/turf/open/floor/plasteel/black/telecomms,
+/area/tcommsat/server)
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 "cny" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile,
@@ -81791,6 +82037,32 @@ aaa
 aaa
 aaa
 aaa
+<<<<<<< HEAD
+=======
+cly
+acN
+acN
+clE
+clM
+clU
+cmb
+clw
+cmk
+cmr
+cmx
+clG
+cmG
+cmK
+cmP
+cmS
+cmY
+cnd
+cnh
+cnn
+cmK
+cnw
+cmB
+>>>>>>> 5d4558b948... Cleaned up last telecomms turf varedits
 aaa
 aaa
 bLN
